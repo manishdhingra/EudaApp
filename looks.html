@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Eudaemon Looks</title>
+<meta name="theme-color" content="#F7F5F0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Eudaemon">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="icon" href="assets/icon-192.png">
+<link rel="stylesheet" href="assets/fonts.css">
+<style>
+
+body{margin:0;font-family:'Manrope',sans-serif;background:#F7F5F0;color:#1C1F21}
+a{color:#1C1F21}a:hover{color:#7A5A2E}
+.cap{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6A6258}
+.tab{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:56px;min-height:48px;justify-content:center;text-decoration:none;font-size:11px;font-weight:600;color:#6A6258}
+.tab-on{color:#1C1F21}
+.fc{height:36px;padding:0 14px;border:1px solid #DCD6CB;border-radius:999px;background:#FFFFFF;font:600 13px 'Manrope',sans-serif;color:#1C1F21;white-space:nowrap}
+.fc-on{background:#1C1F21;border-color:#1C1F21;color:#FFFFFF}
+.pc{display:flex;flex-direction:column;gap:5px;font-size:12px;font-weight:600;color:#1C1F21}
+.pc img{width:100%;height:112px;object-fit:cover;object-position:center 30%;border-radius:10px;display:block;background:#E3E3E1}
+.own{color:#2E6B5E;font-weight:700}
+.add{color:#7A5A2E;font-weight:700}
+
+html,body{height:100%;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
+body{background:#EDEAE2}
+nav{padding-bottom:env(safe-area-inset-bottom);height:auto!important;min-height:76px}
+header{padding-top:env(safe-area-inset-top)}
+</style>
+</head>
+<body>
+<div style="width: 100%; max-width: 480px; height: 100dvh; margin: 0 auto; display: flex; flex-direction: column; background: #F7F5F0; overflow: hidden; position: relative">
+  <header style="flex-shrink: 0; padding: 18px 20px 10px; display: flex; flex-direction: column; gap: 12px">
+    <div>
+      <div style="font-family: 'Cormorant Garamond', serif; font-size: 32px; font-weight: 600; line-height: 1.05">Looks to carry</div>
+      <div style="font-size: 13px; color: #6A6258; margin-top: 4px">Put together by your stylist from what you already own</div>
+    </div>
+    <div style="display: flex; gap: 8px" role="group" aria-label="Filter looks">
+      <button type="button" class="fc fc-on">For you</button>
+      <button type="button" class="fc">Occasions</button>
+      <button type="button" class="fc">Travel</button>
+      <button type="button" class="fc">Season</button>
+    </div>
+  </header>
+  <main style="min-height: 0; flex-grow: 1; display: flex; flex-direction: column; gap: 14px; padding: 6px 20px 16px; overflow-y: auto; -webkit-overflow-scrolling: touch">
+    <article style="padding: 14px; border-radius: 16px; background: #FFFFFF; border: 1px solid #E4DED3; display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; justify-content: space-between; align-items: baseline">
+        <div style="font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 600">The Udaipur evening</div>
+        <span style="font-size: 12px; font-weight: 700; color: #2E6B5E">You own 2 of 3</span>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px">
+        <div class="pc"><img src="assets/6ceaf3726d.jpg" alt="">Godfather Jacket<span class="own">In your wardrobe</span></div>
+        <div class="pc"><img src="assets/21d4a74a5f.jpg" alt="">Cut-away shirt<span class="own">In your wardrobe</span></div>
+        <div class="pc"><img src="assets/0852e2e496.jpg" alt="">Walkman Trouser<span class="add">Complete the look</span></div>
+      </div>
+      <button type="button" style="height: 44px; border: 0; border-radius: 10px; background: #1C1F21; color: #FFFFFF; font: 700 14px 'Manrope', sans-serif">Have the Walkman Trouser made for you</button>
+    </article>
+    <article style="padding: 14px; border-radius: 16px; background: #FFFFFF; border: 1px solid #E4DED3; display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; justify-content: space-between; align-items: baseline">
+        <div style="font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 600">A weekend in Dubai</div>
+        <span style="font-size: 12px; font-weight: 700; color: #2E6B5E">You own all 3</span>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px">
+        <div class="pc"><img src="assets/7f68f85283.jpg" alt="">Nomad Jacket<span class="own">In your wardrobe</span></div>
+        <div class="pc"><img src="assets/76dafeae77.jpg" alt="">Button-down shirt<span class="own">In your wardrobe</span></div>
+        <div class="pc"><img src="assets/ea8d767b3b.jpg" alt="">Worko Trouser<span class="own">In your wardrobe</span></div>
+      </div>
+      <button type="button" style="height: 44px; border: 1px solid #1C1F21; border-radius: 10px; background: transparent; color: #1C1F21; font: 700 14px 'Manrope', sans-serif">Save as a packing list</button>
+    </article>
+  </main>
+  <nav aria-label="Main" style="height: 76px; flex-shrink: 0; display: flex; justify-content: space-around; align-items: flex-start; padding-top: 8px; background: #FFFFFF; border-top: 1px solid #E4DED3">
+    <a href="index.html" class="tab"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7v9H3z"></path></svg>Home</a>
+    <a href="wardrobe.html" class="tab"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 6a2 2 0 1 1 3 1.7c-.7.4-1 .9-1 1.6V10"></path><path d="M12 10L3 17h18z"></path></svg>Wardrobe</a>
+    <a href="looks.html" class="tab tab-on"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5z"></path><path d="M3 13l9 5 9-5"></path></svg>Looks</a>
+    <a href="orders.html" class="tab"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M3 7l9-4 9 4v10l-9 4-9-4z"></path><path d="M3 7l9 4 9-4M12 11v10"></path></svg>Orders</a>
+    <a href="profile.html" class="tab"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c1-4 4-6 8-6s7 2 8 6"></path></svg>You</a>
+  </nav>
+</div>
+<script>if('serviceWorker' in navigator&&location.protocol.startsWith('http'))navigator.serviceWorker.register('sw.js');</script>
+</body></html>
